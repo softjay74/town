@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+djangorestframework-jwt = "*"
+pillow = "*"
+django-rest-auth = {version = "*", extras = ["with_social"]}
+django-cors-headers = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
